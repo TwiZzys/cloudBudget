@@ -320,6 +320,7 @@ body {
 }
 .contacts__title{
   margin-bottom: 50px;
+  text-align: left;
 }
 .contacts__info-text{
   line-height: 20px;
