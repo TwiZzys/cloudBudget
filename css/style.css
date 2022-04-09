@@ -315,20 +315,25 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.contacts__info{
+
+.contacts__info {
   max-width: 445px;
 }
-.contacts__title{
+
+.contacts__title {
   margin-bottom: 50px;
   text-align: left;
 }
-.contacts__info-text{
+
+.contacts__info-text {
   line-height: 20px;
 }
-.contacts-form{
+
+.contacts-form {
   width: 445px;
 }
-.contacts-form__input{
+
+.contacts-form__input {
   display: block;
   width: 100%;
   border: 1px solid #333333;
@@ -337,15 +342,18 @@ body {
   margin-bottom: 25px;
   padding: 20px 30px;
 }
-.contacts-form__input:focus{
+
+.contacts-form__input:focus {
   outline: 1px solid #333333;
 }
-.contacts-form__input::placeholder{
+
+.contacts-form__input::placeholder {
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);
 }
-.contacts-form__btn{
+
+.contacts-form__btn {
   color: #fff;
   border: none;
   background: #ED4C5C;
@@ -354,7 +362,30 @@ body {
   cursor: pointer;
   padding: 17px 40px;
 }
-/* 
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif; 
-*/
+
+.footer {
+  padding: 45px 0 50px;
+  background: #FAFAFA;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.footer__address {
+  margin-bottom: 45px;
+  line-height: 18px;
+}
+
+.footer__address,
+.footer__copy {
+  max-width: 262px;
+}
