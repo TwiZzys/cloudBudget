@@ -395,6 +395,15 @@ body {
   max-width: 262px;
 }
 
+.toTop {
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+}
+
 @media(max-width: 1024px) {
   .title {
     font-size: 28px;

@@ -14,10 +14,10 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="header__top">
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img class="logo__img" src="images/logo.svg" alt="logo">
         </a>
         <nav class="menu">
@@ -26,16 +26,16 @@
           </button>
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu__link" href="#">ОБЗОР</a>
+              <a class="menu__link" href="#management">ОБЗОР</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">ОСОБЕННОСТИ</a>
+              <a class="menu__link" href="#capability">ОСОБЕННОСТИ</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">ТЕХНОЛОГИЯ</a>
+              <a class="menu__link" href="#technology">ТЕХНОЛОГИЯ</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">КОНТАКТЫ</a>
+              <a class="menu__link" href="#contacts">КОНТАКТЫ</a>
             </li>
             <li class="menu__item">
               <a class="menu__link" href="#">ВОЙТИ</a>
@@ -63,7 +63,7 @@
       </div>
     </div>
   </header>
-  <section class="management">
+  <section class="management" id="management">
     <div class="container">
       <div class="management__inner">
         <div class="management__content">
@@ -87,7 +87,7 @@
       </div>
     </div>
   </section>
-  <section class="capability">
+  <section class="capability" id="capability">
     <div class="container">
       <h2 class="title capability__title">
         Возможности
@@ -125,7 +125,7 @@
       </div>
     </div>
   </section>
-  <section class="technology">
+  <section class="technology" id="technology">
     <div class="container">
       <h2 class="title technology__title">
         Технологии
@@ -193,7 +193,7 @@
       </div>
     </div>
   </section>
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="container">
       <div class="contacts__inner">
         <div class="contacts__info">
@@ -226,6 +226,9 @@
       </p>
     </div>
   </footer>
+  <a class="toTop" href="#header">
+    <img class="toTop__img" src="images/icons/up-arrow.svg" alt="toTop icon">
+  </a>
   <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
