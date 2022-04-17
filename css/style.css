@@ -423,6 +423,47 @@ body {
   .management__link {
     margin-bottom: 20px;
   }
+
+  .capability {
+    padding: 30px 0;
+  }
+
+  .technology {
+    padding-top: 30px;
+  }
+
+  .technology__content-inner {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .technology__content-title {
+    margin-bottom: 25px;
+  }
+
+  .technology__items {
+    margin-bottom: 30px;
+  }
+
+  .technology__item {
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  .technology__content-inner {
+    display: block;
+  }
+
+  .technology__content-info {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .technology__img {
+    width: 100%;
+  }
 }
 
 @media(max-width: 800px) {
@@ -464,6 +505,14 @@ body {
 
   .menu__list.menu__list--active {
     transform: translateY(0);
+  }
+
+  .capability__item {
+    margin: 0 auto;
+  }
+
+  .technology__item {
+    margin: 0 auto;
   }
 }
 
