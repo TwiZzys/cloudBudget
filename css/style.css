@@ -464,6 +464,31 @@ body {
   .technology__img {
     width: 100%;
   }
+
+  .contacts__inner {
+    display: block;
+    padding: 30px 0;
+  }
+
+  .contacts__info {
+    margin: 0 auto;
+  }
+
+  .contacts__info-text {
+    margin-bottom: 25px;
+  }
+
+  .contacts__title {
+    margin-bottom: 15px;
+  }
+
+  .contacts-form {
+    width: 100%;
+  }
+
+  .contacts-form__btn {
+    width: 100%;
+  }
 }
 
 @media(max-width: 800px) {
